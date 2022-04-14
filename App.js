@@ -82,14 +82,13 @@ function fetchWeatherData() {
             const d = parseInt(date.substr(8, 2));
 
             const time = date.substr(11);
-            /*Reformat the date into somenting more
-
-appealing and add it to the page" Original formd 2011-10-29 17:53
-
+            /*Reformat the date into somenting more 
+            appealing and add it to the page" Original formd 2011-10-29 17:53
             Format: 17: 53 - Frild10 2021 */
 
             dateOutput.innerHTML = `${dayOfTheWeek(d, m, y)} ${d}, ${m} ${y}`;
-            timeOutput.innerHTML = time; /*"Add the name of the city into the page*/
+            timeOutput.innerHTML = time;
+            /*"Add the name of the city into the page*/
 
             nameOutput.innerHTML = data.location.name;
             let nameOutput1 = data.location.name;
@@ -99,7 +98,6 @@ appealing and add it to the page" Original formd 2011-10-29 17:53
             console.log(iconId);
 
             /*Reformat the icon url to your own
-            
             Local folder path and add it to the page"*/
 
             icon.src = "https://cdn.weatherapi.com/weather/64x64/" + iconId;
