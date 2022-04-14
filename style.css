@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-family: 'Rubik',sans-serif;
     background: #111;
-    overflow: hidden;
 }
 *{
     box-sizing: border-box;
@@ -98,11 +97,11 @@ h1,h3{
     position: absolute;
     top:0;
     right: 0;
-    padding: 1.5em;
+    padding: 2.05em;
     margin: 0;
     border: none;
     outline: none;
-    background: #fc4c0c;
+    background: #fc640c;
     color: #fff;
     cursor: pointer;
     font-size: 1.2em;
@@ -119,7 +118,7 @@ h1,h3{
     border: none;
     border-bottom: 1px #ccc solid;
     padding: 0 1em  0.5em 0;
-    width: 92%;
+    width: 91%;
     color: #fff;
     font-size: 1.1em;
 
