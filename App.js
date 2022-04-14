@@ -33,7 +33,7 @@ cities.forEach((city) => {
 form.addEventListener('submit', (e) => {
     /* If the input feild (search bar) is empty, throw an alert*/
     if (search.value.length == 0) {
-        alert('Please type in a city name');
+        alert('Please type searching location');
 
     }
     else {
